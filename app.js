@@ -14,7 +14,7 @@ const dbcon = require('./db/dbconnect')
 const app = express();
 
 
-// pass Mongo URI to connect to db else comment it 
+// To connect to db else comment it 
 dbcon.dbconnect(dbConfig.Userdb);
 
 
